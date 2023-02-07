@@ -14,6 +14,16 @@
   box-shadow: 0px 0px 10px black;
 }
 
+.encabezado2 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+}
+
 .menuLink {
   color: black;
   text-decoration: none;
@@ -167,6 +177,18 @@ footer {
   color: white;
 }
 
+.footerport {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  padding-top: 40px;
+  width: 100%;
+  color: white;
+}
+
 .footerContent {
   display: flex;
   align-items: center;
@@ -293,31 +315,29 @@ li a {
   color: #333;
 }
 
-.aContent{
-  position: relative;
+.aContent {
+  position: fixed;
   top: 280px;
-  left:5%;
+  left: 5%;
   display: flex;
-
 }
 
-.aContent img{
+.aContent img {
   width: 300px;
 }
 
-
-.aContent ul{
+.aContent ul {
   top: 0px;
   list-style: none;
   align-items: center;
   justify-content: center;
 }
 
-.acontent li{
+.acontent li {
   margin: 0 10px;
 }
 
-.acontent p{
+.acontent p {
   font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -325,7 +345,7 @@ li a {
 }
 
 /*A partir de aca todo es de skills*/
-.contenido{
+.contenido {
   position: relative;
   top: 120px;
   left: 0;
@@ -333,7 +353,7 @@ li a {
   bottom: 20px;
 }
 
-.contenido h1{
+.contenido h1 {
   text-align: center;
   font-family: "Inter", sans-serif;
   font-size: 30px;
@@ -341,7 +361,7 @@ li a {
   text-transform: capitalize;
 }
 
-.contenido p{
+.contenido p {
   position: relative;
   margin-top: 100px;
   font-family: "Inter", sans-serif;
@@ -353,14 +373,14 @@ li a {
   left: 2%;
 }
 
-.contenido img{
+.contenido img {
   position: relative;
   width: 700px;
   left: 58%;
   top: -260px;
 }
 
-.div2{
+.div2 {
   background-image: url(../imagenes/Top-6-Software-Development-Methodologies.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -368,4 +388,107 @@ li a {
   top: 100px;
   width: 100%;
   height: 800px;
+}
+
+.contenido2 {
+  position: relative;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  bottom: 20px;
+}
+
+.contenido2 h1 {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 600px;
+  text-transform: capitalize;
+}
+
+.contenido2 p {
+  position: relative;
+  margin-top: 100px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  max-width: 800px;
+  text-align: left;
+  left: 2%;
+}
+
+.contenido2 header h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.contenido2 figure img {
+  width: 600px;
+  left: 20%;
+}
+
+.contenido2 figure figcaption {
+  font-family: "Inter", sans-serif;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*A partir de aca es de contact*/
+.background{
+  position: fixed;
+  top: 105px;
+  left: 0;
+  right: 0;
+  bottom: 300px;
+  background-color: #333;
+}
+
+.contenido3 h1{
+  top: 10px;
+  position: relative;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.contenido3 p{
+  position: relative;
+  top: 30px;
+  color: #888;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.contenido3 h3{
+  top: 70px;
+  left: 2%;
+  border-bottom: 2px solid white;
+  position: relative;
+  color: white;
+  text-align: left;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.contenido3 a{
+  text-decoration: none;
+  position: relative;
+  font-size: 30px;
+  color: #888;
+  top: 90px;
+  bottom: 5px;
+  text-align: left;
 }
