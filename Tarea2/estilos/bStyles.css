@@ -1,0 +1,371 @@
+/*Nav Menu*/
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.encabezado {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+}
+
+.menuLink {
+  color: black;
+  text-decoration: none;
+}
+
+.navMenu {
+  display: flex;
+  margin-right: 90%;
+  list-style: none;
+}
+
+.navOpcion {
+  font-size: 18px;
+  margin: 0 10px;
+  line-height: 90px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.navLink {
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+
+.navLink:hover {
+  background-color: #00aded;
+  color: white;
+  transition: 0.5s ease 0s;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 150;
+  height: 80px;
+}
+
+/*Pagina Home*/
+
+.centrar {
+  text-align: center;
+}
+
+.derecha {
+  text-align: right;
+}
+
+.izquierda {
+  text-align: left;
+}
+
+.content {
+  position: fixed;
+  top: 300px;
+  left: 0;
+  width: 100%;
+  bottom: 20px;
+}
+
+.tittlePrin {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.tittleConti {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.btnPrimary {
+  background-color: #00aded;
+}
+
+.btnPrimary:hover {
+  background-color: royalblue;
+}
+
+.btnForm {
+  letter-spacing: 2px;
+  border-width: 2px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 1px solid transparent;
+  text-decoration: none;
+  border-width: 2px;
+}
+.btn:visited {
+  display: inline-block;
+  padding: 10px 16px;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 1px solid transparent;
+  text-decoration: none;
+  border-width: 2px;
+  color: white;
+}
+
+.div1 {
+  background-image: url(../imagenes/softDev.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 100px;
+  width: 100%;
+  height: 800px;
+}
+
+.btnPositionDownload {
+  position: fixed;
+  top: 500px;
+  text-align: center;
+  width: 100%;
+  bottom: 20px;
+}
+
+/* Todo lo del footer*/
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  padding-top: 40px;
+  width: 100%;
+  color: white;
+}
+
+.footerContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footerContent h3 {
+  font-size: 2.3rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.footerContent p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 24px;
+  font-size: 14px;
+  color: #cacdd2;
+}
+
+.social {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.social li {
+  margin: 0 10px;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 8px;
+  border-radius: 50%;
+  width: 35px;
+}
+
+.footerMenu {
+  margin-bottom: 20px;
+}
+
+.footerMenu ul {
+  display: flex;
+}
+
+.footerMenu ul li {
+  padding-right: 10px;
+  display: block;
+}
+
+.footerMenu ul li a {
+  color: #cfd2d6;
+  border: 1.3px solid white;
+  padding: 10px 15px;
+  border-radius: 20%;
+  text-decoration: none;
+}
+
+.footerMenu ul li a:hover {
+  color: #00aded;
+  border-color: #00aded;
+  transition: 1.5s;
+}
+
+.footerBottom {
+  background: #000;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.footerBottom p {
+  text-align: center;
+  font-size: 14px;
+  word-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.footerBottom p a {
+  color: #00aded;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  .footerMenu ul {
+    display: inline;
+  }
+
+  .footerMenu ul li {
+    margin-bottom: 20px;
+  }
+}
+
+/*Todo lo de la pagina ABOUT*/
+.atittle {
+  position: fixed;
+  text-align: center;
+  top: 150px;
+  color: #333;
+  right: 40%;
+}
+
+.atittle h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0px 15px;
+}
+
+.atittle p {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  margin: 20px 0 40px;
+  font-weight: 500;
+  color: #333;
+}
+
+.aContent{
+  position: relative;
+  top: 280px;
+  left:5%;
+  display: flex;
+
+}
+
+.aContent img{
+  width: 300px;
+}
+
+
+.aContent ul{
+  top: 0px;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.acontent li{
+  margin: 0 10px;
+}
+
+.acontent p{
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+}
+
+/*A partir de aca todo es de skills*/
+.contenido{
+  position: relative;
+  top: 120px;
+  left: 0;
+  width: 100%;
+  bottom: 20px;
+}
+
+.contenido h1{
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 600px;
+  text-transform: capitalize;
+}
+
+.contenido p{
+  position: relative;
+  margin-top: 100px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  max-width: 800px;
+  text-align: left;
+  left: 2%;
+}
+
+.contenido img{
+  position: relative;
+  width: 700px;
+  left: 58%;
+  top: -260px;
+}
+
+.div2{
+  background-image: url(../imagenes/Top-6-Software-Development-Methodologies.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 100px;
+  width: 100%;
+  height: 800px;
+}
